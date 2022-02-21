@@ -8,7 +8,6 @@ export default function Dictionary(props) {
   let [loaded, setLoaded] = useState(false);
 
   function handleResponse(response) {
-    console.log(response);
     setResults(response.data[0]);
   }
   function search() {
@@ -23,7 +22,6 @@ export default function Dictionary(props) {
 
   function handleSearchTextChange(event) {
     // event.preventDefault();
-    console.log(event.target.value);
     setSearchText(event.target.value);
   }
 
