@@ -1,9 +1,10 @@
 import React from "react";
-import Phonetic from "./Phonetics";
-import Meaning from "./Meaning";
+import Phonetic from "./Phonetics.js";
+import Meaning from "./Meaning.js";
 import "./SearchResults.css";
 
 export default function Results(props) {
+  console.log(props);
   if (props.results) {
     return (
       <div className="Results">
