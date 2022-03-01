@@ -1,4 +1,4 @@
-import logo from "./logo.png";
+import logo from "./logo2.png.jpg";
 import "./App.css";
 import Dictionary from "./Dictionary.js";
 export default function App() {
@@ -12,7 +12,24 @@ export default function App() {
           <Dictionary />
         </main>
         <footer className="App-footer">
-          <small>Coded by SheCodes</small>
+          <small>
+            <a
+              href="https://github.com/AdetunjiA/Dictionary-project"
+              className="github"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Open-source code
+            </a>
+            , by Adeola Adetunji and{" "}
+            <a
+              href="https://nostalgic-cray-06d85a.netlify.app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              hosted on Netlify
+            </a>
+          </small>
         </footer>
       </div>
     </div>
